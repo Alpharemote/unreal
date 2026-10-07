@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Places Now</title>
+<meta name="description" content="A new place on Earth every day, live from public webcams, with the local time and weather.">
+<style>
+  :root { --bg: #f6f7f9; --fg: #15181d; --muted: #5b6370; --card: #fff; --accent: #e5322d; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f1216; --fg: #eef1f5; --muted: #9aa3ae; --card: #181c22; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 2.4rem; letter-spacing: .02em; margin: 0 0 8px; }
+  .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); margin-right: 10px; vertical-align: middle; }
+  p.lead { color: var(--muted); font-size: 1.15rem; margin: 0 0 32px; }
+  .card { background: var(--card); border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+  a.button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 999px; font-weight: 600; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 40px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="dot"></span>Daily Places Now</h1>
+  <p class="lead">A new place on Earth every day, live from public webcams.</p>
+
+  <div class="card">
+    <p>Every day we post a short video from one of the world's public webcams: fjords in Norway, volcanoes in Hawaii and New Zealand, the Grand Canyon, the South Pole and more. Each Short shows the view as it is right now, with the local time and current weather.</p>
+    <p>All cameras are operated by public agencies and organisations (national parks, geological surveys, transport departments) whose terms allow reuse. Each video credits the camera's owner. Weather data comes from <a href="https://open-meteo.com/">Open-Meteo.com</a>.</p>
+    <p><a class="button" href="https://www.youtube.com/channel/UCCMEhHnsBhWW4_YJ77vkf8A">Watch on YouTube</a></p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
